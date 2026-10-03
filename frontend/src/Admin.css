@@ -1,0 +1,92 @@
+/* Admin.css */
+
+/* Overall page container - similar to .profile-page */
+.admin-page {
+  background-color: #0f111a;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section that contains the "hero" or main content area */
+.admin-hero {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1rem;
+}
+
+/* The main content container - like .profile-content */
+.admin-content {
+  width: 100%;
+  max-width: 1600px;
+  background: #1a1c28;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+/* Simple headings inside each section */
+.admin-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* A reusable section area for stats grouping */
+.admin-section {
+  margin-top: 2rem;
+  background-color: #2a2e3e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Loading/error states */
+.admin-loading {
+  color: #aaa;
+}
+
+.admin-error {
+  color: red;
+  margin-top: 0.5rem;
+}
+/* Admin.css excerpt */
+
+.copy-button {
+  background-color: #3b3f51;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-left: 0.5rem;
+}
+
+.copy-button:hover {
+  background-color: #505468;
+}
+
+.etherscan-link {
+  color: #4fa3ff;
+  text-decoration: underline;
+  font-size: 0.85rem;
+}
+.admin-table {
+  width: 100%;
+  background-color: #1a1c28;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 0.5rem;
+  border: 1px solid #2a2e3e;
+}
+
+.admin-table th {
+  background-color: #2a2e3e;
+}
